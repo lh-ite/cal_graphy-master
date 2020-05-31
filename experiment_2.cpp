@@ -200,7 +200,7 @@ bool parallelogram::judge4()
 	if (judge(x, y, x1, y1, x6, y6, x7, y7) || judge(x, y, x1, y1, x7, y7, x6, y6) || judge(x, y, x6, y6, x1, y1, x7, y7) || judge(x, y, x6, y6, x7, y7, x1, y1) || judge(x, y, x7, y7, x1, y1, x6, y6) || judge(x, y, x7, y7, x6, y6, x1, y1))
 		return true;
 	else
-		return false;
+		return false; 
 }
 double parallelogram::length()const
 {
